@@ -21,27 +21,46 @@ Design and implement an agentic AI application for a **Realtime Trip Planner Sys
 
 ### Project Setup with uv
 
-1. Check your uv version:
-    ```
-    uv --version
-    ```
-    This command displays the installed uv version. If uv is not installed, visit the official site: [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
+#### 1. Check your uv version:
+```powershell
+uv --version
+```
+Displays the installed uv version. If not installed, visit: [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
 
-2. Initialize a new project:
-    ```
-    uv init project_name
-    ```
-    This will automatically create a new project structure.
+#### 2. Initialize a new project:
+```powershell
+uv init project_name
+```
+Creates a new project structure automatically.
 
-3. Change to the project directory:
-    ```
-    cd project_name
-    ```
+#### 3. Change to the project directory:
+```powershell
+cd project_name
+```
 
-4. Open the project in VS Code:
-    ```
-    code .
-    ```
+#### 4. Open the project in VS Code:
+```powershell
+code .
+```
+
+#### 5. Create and activate a virtual environment:
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+### Trip Planner Agent Tasks
+This app will plan a trip for any city worldwide using real-time data:
+- Real-time weather info
+- Attractions & activities in the city
+- Hotels and costs
+- Currency conversion
+- Total expenses
+- Generate the trip summary
+
+```powershell
+uv python list
+```
+Lists all Python versions detected by uv.
 
 ---
 
