@@ -62,10 +62,46 @@ uv python list
 ```
 Lists all Python versions detected by uv.
 
----
+## Implementation & Deployment
+     - Full project implementation
+     - Deployment using LLMOps best practices
 
-> venv, README.md, and requirements.txt have been created and updated as part of the initial setup.
+## Useful Commands
 
+### Project Setup & uv
+```powershell
+uv --version
+uv init Realtime-Trip-Planner-System
+cd .\Realtime-Trip-Planner-System
+ls
+code .
+```
+
+### Python Virtual Environment
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+python --version
+deactivate
+```
+
+### Git & Version Control
+```powershell
+git --version
+git init
+git remote add origin https://github.com/dipakwanere/realtime-trip-planner-system.git
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+git status
+```
+
+### uv Package Management
+```powershell
+uv pip list
+uv pip install langchain
+```
 ---
 
 - **Main:** Agentic AI Application
