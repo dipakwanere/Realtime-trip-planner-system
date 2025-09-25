@@ -1,0 +1,13 @@
+langchain
+langraph
+uv
+ragstack
+transformers
+torch
+sentence-transformers
+scikit-learn
+numpy
+pandas
+fastapi
+uvicorn
+python-dotenv
